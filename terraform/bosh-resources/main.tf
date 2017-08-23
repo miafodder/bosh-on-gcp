@@ -15,7 +15,7 @@ variable "region" {
 
 variable "zone" {
     type = "string"
-    default = "europe-west2-a"
+    default = "europe-west2-c"
 }
 
 variable "prefix" {
@@ -30,7 +30,7 @@ variable "service_account_email" {
 
 variable "baseip" {
     type = "string"
-    default = "10.0.0.0"
+    default = "10.0.1.0"
 }
 
 variable "bosh_cli_version" {
